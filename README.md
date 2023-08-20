@@ -36,6 +36,6 @@ Yes, in about 2-3 days
 
 **Why this asks?**
 
-Idk i just want give a explanation if some body fall here!
+Idk i just want give a explanation if somebody fall here!
 
 #  Thanks for lost your time reading about my project! I will try release soon!
