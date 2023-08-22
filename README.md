@@ -13,7 +13,7 @@ I dont have a paid version of ChatGpt so in release you may have problems using 
 
 This program can take some information about world! For now he just can take 3 information: Day, Day, Weather. I have plans to improve in future version using addons to better informations and speed!
 
-This program is fully Python but it will not be open source, because i want make better version more optimized and organized. Maybe you can get the codes aceesing with other ways but its is ok. Just dont steal the codes!
+This program is fully Python. It dont have a docs becuase i want make better version more optimized and organized. Just dont steal the codes!
 
 How everyone know Chatgpt dont have a updated informations so he can not know newest minecraft things!
 
@@ -31,7 +31,7 @@ No, this is just a server connected to your world. The server read player messag
 
 **It wiil release soon?**
 
-Yes, in about 2-3 days
+Yes, in about 1-2 weeks!
 
 
 **Why this asks?**
