@@ -5,7 +5,7 @@ ChatGpt for Minecraft using Web Scocket Server.
 
 # Demonstration Screenshot
 
-![App Screenshot](demo.png)
+![App Screenshot](images/demo.png)
 
 ## Resources and Others
 
