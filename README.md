@@ -1,41 +1,100 @@
-# BedrockChatGpt
-ChatGpt for Minecraft using Web Scocket Server.
 
-### The Project is almost done! I am working in better user experience and more intuitive program.
-
-# Demonstration Screenshot
-
-![App Screenshot](images/demo.png)
-
-## Resources and Others
-
-I dont have a paid version of ChatGpt so in release you may have problems using paid version. So report with a screenshot!
-
-This program can take some information about world! For now he just can take 3 information: Day, Day, Weather. I have plans to improve in future version using addons to better informations and speed!
-
-This program is fully Python. It dont have a docs becuase i want make better version more optimized and organized. Just dont steal the codes!
-
-How everyone know Chatgpt dont have a updated informations so he can not know newest minecraft things!
-
-ChatGpt is really dumb in minecraft but it is being better with the time. How you can see in the question about glass panes.
-
-# Possible Asks
-
-**It wiil be released to Android?**
-
-I have plans to port to all Operating Systems including android this probally will be released to Termux
-
-**It is a mod?**
-
-No, this is just a server connected to your world. The server read player message and make the magic and execute the message into your world!
-
-**It wiil release soon?**
-
-Yes, in about 1-2 weeks!
+![Logo](images/bedrock_chatgpt.png)
 
 
-**Why this asks?**
+# Bedrock ChatGpt
 
-Idk i just want give a explanation if somebody fall here!
+ChatGpt for Minecraft Bedrock using Web Sockets.
 
-#  Thanks for lost your time reading about my project! I will try release soon!
+
+
+## Demonstrations
+![demo1](images/demo1.png)
+![demo2](images/demo2.png)
+
+
+## Commands
+
+### Help
+```
+  !chatgpt help 
+```
+
+| Parameters | Description                          |
+| :--------- | :---------------------------------- |
+|  `1` | Show the help page about **!chatgpt help**. |
+|  `2` | Show the help page about **!chatgpt set**. |
+|  `3` | Show the help page about **!chatgpt info**. |
+|  `4` | Show the help page about **!chatgpt get**. |
+|  `5` | Show the help page about **!chatgpt credits**. |
+
+### Set
+```
+  !chatgpt set 
+```
+
+| Parameters | Description                          | Sub-Parameters |
+| :--------- | :---------------------------------- | :------------ |
+|  `model` | Set the ChatGpt Model. | gpt-4 / gpt-3.5-turbo / Variants
+|  `temperature` | Set ChatGpt Temperature. | 0.0 - 2.0
+|  `name` | Set the ChatGpt Name. | (16 Characters Name)
+|  `aswner_all` | Set the Aswner All. | True / False
+|  `require_tag` | Set the Require Tag. | True / False
+
+### Info
+```
+  !chatgpt info
+```
+
+| Parâmetro   | Description       |
+| :---------- | :--------- |
+| None      | Show some Information about Bedrock ChatGpt |
+
+### Get
+```
+  !chatgpt get 
+```
+
+| Parameters | Description                          |
+| :--------- | :---------------------------------- |
+|  `model` | Show the ChatGpt Model. |
+|  `temperature` | Show the ChatGpt Temperature. |
+|  `name` | Show the ChatGpt Name. |
+|  `aswner_all` | Show the Aswner All. |
+|  `require_tag` | Show the Require Tag. |
+
+### Credits
+```
+  !chatgpt credits
+```
+
+| Parâmetro   | Description       |
+| :---------- | :--------- |
+| None      | Show the credits for Bedrock ChatGpt development! |
+
+
+
+## Setting Up
+For use ChatGpt require a OpenAi Key!
+
+OpenAi have a free version with limited usage! And a paid version with less limitation!
+You can get you key on https://openai.com/
+## Running
+
+### Running on Windows:
+In Windows is very easy to run! Its just run like a normal program, but will require firewall permission and you need allow to public and private!
+
+### Running on Linux / Termux ( Proot Works Better! )
+
+To run in Linux you need to execute inside of directory of program and type in terminal: 
+```bash
+./bedrock_chatgpt
+```
+
+## Know Issues
+
+****Crash on Start after of close Server!****
+
+****Maybe a Lazy Start on first Start!****
+
+    
