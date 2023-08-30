@@ -95,7 +95,7 @@ To run in Linux you need to execute inside of directory of program and type in t
 
 If you try connect on Minecraft Windows and dont work, type the following command in PowerShell as Admin:
 ```powershell
-CheckNetIsolation LoopbackExempt -a -n="Microsoft.MinecraftUWP_8wekyb3d8bbwe" (Powershell with Admin rights)
+CheckNetIsolation LoopbackExempt -a -n="Microsoft.MinecraftUWP_8wekyb3d8bbwe"
 ```
 
 ## Know Issues
