@@ -91,7 +91,7 @@ To run in Linux you need to execute inside of directory of program and type in t
 ./bedrock_chatgpt
 ```
 
-##Connecting
+## Connecting
 
 If you try connect on Minecraft Windows and dont work, type the following command in PowerShell as Admin:
 ```powershell
