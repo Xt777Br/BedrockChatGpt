@@ -91,4 +91,4 @@ CheckNetIsolation LoopbackExempt -a -n="Microsoft.MinecraftUWP_8wekyb3d8bbwe"
 
 ****Falha ao iniciar após fechar o servidor!****
 
-****Talvez um começo preguiçoso na primeira partida!****
+****Talvez um começo lento na primeira partida!****
