@@ -1,107 +1,94 @@
-
-![Logo](images/bedrock_chatgpt.png)
-
-
-# Bedrock ChatGpt
-
-ChatGpt for Minecraft Bedrock using Web Sockets.
-
-
-
-## Demonstrations
+## Demonstrações
 ![demo1](images/demo1.png)
-![demo2](images/demo2.png)
 
 
-## Commands
+## Comandos
 
-### Help
+### Ajuda
 ```
-  !chatgpt help 
+   !chatgpt help
 ```
 
-| Parameters | Description                          |
+| Parâmetros | Descrição|
 | :--------- | :---------------------------------- |
-|  `1` | Show the help page about **!chatgpt help**. |
-|  `2` | Show the help page about **!chatgpt set**. |
-|  `3` | Show the help page about **!chatgpt info**. |
-|  `4` | Show the help page about **!chatgpt get**. |
-|  `5` | Show the help page about **!chatgpt credits**. |
+| `1` | Mostre a página de ajuda sobre **!chatgpt help**. |
+| `2` | Mostre a página de ajuda sobre **!chatgpt set**. |
+| `3` | Mostre a página de ajuda sobre **!chatgpt info**. |
+| `4` | Mostre a página de ajuda sobre **!chatgpt get**. |
+| `5` | Mostre a página de ajuda sobre **!chatgpt credits**. |
 
-### Set
+### Set (define a configuração)
 ```
-  !chatgpt set 
-```
-
-| Parameters | Description                          | Sub-Parameters |
-| :--------- | :---------------------------------- | :------------ |
-|  `model` | Set the ChatGpt Model. | gpt-4 / gpt-3.5-turbo / Variants
-|  `temperature` | Set ChatGpt Temperature. | 0.0 - 2.0
-|  `name` | Set the ChatGpt Name. | (16 Characters Name)
-|  `aswner_all` | Set the Aswner All. | True / False
-|  `require_tag` | Set the Require Tag. | True / False
-
-### Info
-```
-  !chatgpt info
+   !chatgpt set
 ```
 
-| Parâmetro   | Description       |
+| Parâmetros | Descrição | Subparâmetros |
+| :--------- | :---------------------------------- | :----------- |
+| `model` | Defina o modelo ChatGpt. | gpt-4 / gpt-3.5-turbo / Variantes
+| `temperature` | Defina a temperatura do ChatGpt. | 0,0 - 2,0
+| `name` | Defina o nome do ChatGpt. | (Nome de 16 caracteres)
+| `aswner_all` | Defina o Aswner tudo. | Verdadeiro falso
+| `require_tag` | Defina a tag necessária. | Verdadeiro falso
+
+### Informações
+```
+   !chatgpt info
+```
+
+| Parâmetro | Descrição |
 | :---------- | :--------- |
-| None      | Show some Information about Bedrock ChatGpt |
+| Nenhum | Mostrar algumas informações sobre Bedrock ChatGpt |
 
-### Get
+### Get (mostra a configuração)
 ```
-  !chatgpt get 
+   !chatgpt get
 ```
 
-| Parameters | Description                          |
+| Parâmetros | Descrição |
 | :--------- | :---------------------------------- |
-|  `model` | Show the ChatGpt Model. |
-|  `temperature` | Show the ChatGpt Temperature. |
-|  `name` | Show the ChatGpt Name. |
-|  `aswner_all` | Show the Aswner All. |
-|  `require_tag` | Show the Require Tag. |
+| `modelo` | Mostra o modelo ChatGpt. |
+| `temperatura` | Mostra a temperatura do ChatGpt. |
+| `nome` | Mostra o nome do ChatGpt. |
+| `aswner_all` | Mostra se Respode tudo. |
+| `require_tag` | Mostre a tag . |
 
-### Credits
+### Créditos
 ```
-  !chatgpt credits
+   !chatgpt credits
 ```
 
-| Parâmetro   | Description       |
+| Parâmetro | Descrição |
 | :---------- | :--------- |
-| None      | Show the credits for Bedrock ChatGpt development! |
+| Nenhum | Mostra os créditos pelo desenvolvimento do Bedrock ChatGpt! |
 
 
 
-## Setting Up
-For use ChatGpt require a OpenAi Key!
+## Configurando
+Para usar o ChatGpt é necessária uma chave OpenAi!
 
-OpenAi have a free version with limited usage! And a paid version with less limitation!
-You can get you key on https://openai.com/
-## Running
+OpenAi possui uma versão gratuita com uso limitado! E uma versão paga com menos limitação!
+Você pode obter sua chave em https://openai.com/
+## Executando
 
-### Running on Windows:
-In Windows is very easy to run! Its just run like a normal program, but will require firewall permission and you need allow to public and private!
+### Executando no Windows:
+No Windows é muito fácil de executar! Ele é executado como um programa normal, mas exigirá permissão de firewall e você precisará permitir acesso público e privado!
 
-### Running on Linux / Termux ( Proot Works Better! )
+### Rodando em Linux/Termux (Proot funciona melhor!)
 
-To run in Linux you need to execute inside of directory of program and type in terminal: 
+Para rodar no Linux você precisa executar dentro do diretório do programa e digitar no terminal:
 ```bash
 ./bedrock_chatgpt
 ```
 
-## Connecting
+## Conectando
 
-If you try connect on Minecraft Windows and dont work, type the following command in PowerShell as Admin:
-```powershell
+Se você tentar conectar-se no Minecraft Windows e não funcionar, digite o seguinte comando no PowerShell como Admin:
+```PowerShell
 CheckNetIsolation LoopbackExempt -a -n="Microsoft.MinecraftUWP_8wekyb3d8bbwe"
 ```
 
-## Know Issues
+## Problemas conhecidos
 
-****Crash on Start after of close Server!****
+****Falha ao iniciar após fechar o servidor!****
 
-****Maybe a Lazy Start on first Start!****
-
-    
+****Talvez um começo preguiçoso na primeira partida!****
