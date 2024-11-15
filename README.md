@@ -5,7 +5,7 @@
 
 ChatGpt for Minecraft Bedrock using Web Sockets.
 
-# *Project is no longer being devoloped or maintained*
+# *Project is no longer being developed or maintained*
 
 ## Demonstrations
 ![demo1](images/demo1.png)
