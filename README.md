@@ -1,4 +1,4 @@
-![Logo](images/bedrock_chatgpt.png)
+![Logo](images/cover.png)
 
 
 # Bedrock ChatGpt
